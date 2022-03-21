@@ -1,37 +1,37 @@
-*{
-    padding: 0%;
-    margin: 0%;
-    box-sizing: border-box;
-    z-index: 1;
-  }
-  
-  body{
-   background-color: rgba(119, 0, 255, 0.452);
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-  }
-  
-  #title{
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100px;
-    margin-bottom: -20px;
-  }
-  
-  #description{
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  #survey-form{
-    background-color: rgba(137, 43, 226, 0.486);
-    width: 40%;
-    padding: 20px;
-    border-radius: 5px;
-    margin-top: 50px;
-  }
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  z-index: 1;
+}
+
+body {
+  background-color: rgba(119, 0, 255, 0.452);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#title {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  margin-bottom: -20px;
+}
+
+#description {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#survey-form {
+  background-color: rgba(137, 43, 226, 0.486);
+  width: 40%;
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 50px;
+}
