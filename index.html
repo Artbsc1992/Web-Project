@@ -1,0 +1,77 @@
+<body>
+
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+  
+    <p id="description">Thank you for taking the time to help us im.prove the platform</p>
+  
+    <form action="" id="survey-form" >
+      <div>
+        <label for="name" id="name-label">name</label><br>
+        <input type="text" id="name" placeholder="Enter your name" required>
+      </div>
+  
+      <div>
+        <label for="email" id="email-label">email</label><br>
+        <input type="email" id="email" placeholder="Enter your email" pattern="/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/" required>
+      </div>
+  
+      <div>
+        <label for="number" id="number-label">Age</label><br>
+        <input type="number" name="" id="number" placeholder="Age" min="10" max="100">
+      </div>
+      <div>
+        <label for="list" >Which option best describes your current role?</label><br>
+        <select id="dropdown" class="" name="list">
+          <option disabled selected value="">select a role</option>
+          <option value="student">student</option>
+          <option value="full time job">full time job</option>
+          <option value="full time learner">full time learner</option>
+          <option value="prefer not to say">prefer not to say</option>
+          <option value="other">other</option>
+        </select>
+      </div>
+      <div>
+        <p>Would you recommend freeCodeCamp to a friend?</p>
+        <input type="radio" name="recommendation" value="Definetly">
+        <label for="recommendation">Definetly</label><br>
+        <input type="radio" name="recommendation" value="Maybe">
+        <label for="recommendation">Maybe</label><br>
+        <input type="radio" name="recommendation" value="Not sure">
+        <label for="recommendation">Not sure</label>
+      </div>
+      <div>
+        <label for="list" id="dropdown2">What is your favorite feature of freeCodeCamp?</label><br>
+        <select class="" name="list">
+          <option disabled selected value="">select best option</option>
+          <option value="challenges">challenges</option>
+          <option value="projects">projects</option>
+          <option value="community">community</option>
+          <option value="prefer not to say">prefer not to say</option>
+          <option value="other">other</option>
+        </select>
+      </div>
+  
+      <div>
+        <p>What would you like to see improved? (Check all that apply)</p>
+        <input type="checkbox" name="recommendation" value="Definetly">
+        <label for="recommendation">Front-end Projects</label><br>
+        <input type="checkbox" name="recommendation" value="Maybe">
+        <label for="recommendation">Back-end Projects</label><br>
+        <input type="checkbox" name="recommendation" value="Not sure">
+        <label for="recommendation">Data Visualization</label><br>
+        <input type="checkbox" name="recommendation" value="Not sure">
+        <label for="recommendation">Data Visualization</label><br>
+        <input type="checkbox" name="recommendation" value="Not sure">
+        <label for="recommendation">Data Visualization</label><br>
+        <input type="checkbox" name="recommendation" value="Not sure">
+        <label for="recommendation">Data Visualization</label>
+      </div>
+  
+      <div>
+        <textarea name="text" id="" cols="50" rows="10" placeholder="Enter your comment here..."></textarea>
+      </div>
+  
+      <button id="submit">submit</button>
+    </form>
+  </body>
+  </html>
